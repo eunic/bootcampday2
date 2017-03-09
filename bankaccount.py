@@ -92,13 +92,12 @@ class CurrentAccount(BankAccount):
 
     def getBalance(self):
 
-        print("your balance is now %d"%(self.balance))
+        print("your balance is  %d"%(self.balance))
 
 
 
 if __name__ == '__main__':
 
-    
 
     account = input("please choose 1 for SavingsAccount and 2 for CurrentAccount")
 
